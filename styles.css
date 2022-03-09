@@ -159,15 +159,56 @@ diptych text-content p button {
 
 products-grid {
     display: block;
+
 }
 
+products-grid div {
+    display: flex;
+    justify-content: center;
+    margin: 3vmin;
+}
 
 products-grid .products-list{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(128px, 1fr));
-    grid-gap: 1em;
+    grid-gap: 3em;
+    justify-content: center;
+    margin: 3vmin;
+    border: solid blueviolet;
 }
 
+products-grid img {
+    display: block;
+    margin: auto;
+    object-fit: cover;
+    object-position: 100% 1;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    
+    border: 5px solid var(--blue);
+}
+
+products-grid ul li product-card text-content {
+    display: block;
+    margin: auto;
+    border: solid blueviolet;
+}
+
+
+quote {
+    display: block;
+}
+
+quote p {
+    margin: 5vmin;
+}
+
+quote h1 {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 3vmin;
+}
 
 
 .header {
