@@ -212,19 +212,21 @@ quote h1 {
 
 
 .sign-up {
-    border: solid var(--darkblue);
-    border-radius: 1em;
-    margin: 2em;
 }
 
 .sign-up-text {
     display: flex;
     flex-direction: column;
+    width: auto;
+    margin: 3em;
 }
 
 .sign-up-content {
+    border: solid var(--blue);
+    border-radius: 20px;
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
+    align-items: center;
     margin: 2em;
 }
 
@@ -235,9 +237,9 @@ quote h1 {
 .sign-up a {
     display: flex;
     align-items: center;
+    margin: auto;
     width: auto;
-    margin: 1em;
-
+    height: auto;
 }
 
 .header {
